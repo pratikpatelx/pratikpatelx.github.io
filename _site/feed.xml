@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-27T12:53:36-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">COMP 4560 Industrial Project Blog for Pratik Patel</title><subtitle>Welcome to My Industrial Project Blog </subtitle><entry><title type="html">Industrial Project Proposal</title><link href="http://localhost:4000/pratikpatelx.github.io/jekyll/update/2020/01/25/Industrial-project-proposal.html" rel="alternate" type="text/html" title="Industrial Project Proposal" /><published>2020-01-25T21:27:56-06:00</published><updated>2020-01-25T21:27:56-06:00</updated><id>http://localhost:4000/pratikpatelx.github.io/jekyll/update/2020/01/25/Industrial-project-proposal</id><content type="html" xml:base="http://localhost:4000/pratikpatelx.github.io/jekyll/update/2020/01/25/Industrial-project-proposal.html">&lt;p&gt;Project Title:   &lt;strong&gt;Creating A Software for FarmLink to tag Cash Prices, Parse Messages and Bids&lt;/strong&gt;&lt;br /&gt;
+Student Name:      &lt;strong&gt;Patel,Pratik (7837299)&lt;/strong&gt;&lt;br /&gt;
+Supervisor:      &lt;strong&gt;Mr.Robert Guderian (UOFM), Mr.Micheal Reimer (FarmLink)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Using Front End (React) Framework and Back End (Flask) server software to Create a fully functioning software for tagging information about a cash price, parsing and displays messages, bids for FarmLink.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction to the topic:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The scope of this project is  a slick interface for manually tagging the information about a cash price, displaying parsed messages and bids history by using as many clever UI elements as possible. This is to reduce and keep the amount of time/overhead manually inputting these prices into the system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Your background preparation to do this project:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have prepared to do this project by taking courses such as&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;COMP 3350 (Software Engineering 1)&lt;/li&gt;
+  &lt;li&gt;COMP 3380 (Databases: Concepts and Usage) experience with using and designing Databases&lt;/li&gt;
+  &lt;li&gt;COMP 3020 (Human Computer Interaction) experience with designing User Interfaces using usability heuristics such as Flexibility and efficiency of system use,and providing proper help and documentation, use of Model-View-Controller architecture and  Web development (HTML, CSS, JAVASCRIPT).&lt;/li&gt;
+  &lt;li&gt;I have also taken COMP 3010 (Distributed Computing) in which we covered an interesting topic Client and server-side processing, failure detection and recovery which will help me with throughout this project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Related Work:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;FarmLink will provide a “mock” database of incoming cash prices, and a schema for the cleaned/tagged cash prices to be put into. The summary of related work required for this project is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating a back-end API for pulling from the database (Flask)&lt;/li&gt;
+  &lt;li&gt;Creating a front-end website (or program, this can be flexible, given justification) for seeing the queue of cash prices that must be tagged, and seeing the history of cash prices, in case there is needs of updates. This is done in React.js, unless otherwise planned for.&lt;/li&gt;
+  &lt;li&gt;Creating a database to maintain state for the system (has this cash price been processed? By whom? When?)&lt;/li&gt;
+  &lt;li&gt;Documentation on how to build and run the server that is required&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem Statement:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Farmlink is getting information about various “cash prices” of commodities from around the province, and around Canada. These come into their system in various ways, and they would like to keep all the information in one stable place, in a well-known format&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Methodology:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task To be Completed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Time Frame Estimates&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Designing A prototype for the software with an overall theme and GUI components&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Due on Feb 7 (2 Weeks)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Project Milestone 1 Features (Initial Planning):&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Milestone 1 Due on Feb 21&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Creating a  Flask API for pulling from the database and overall project setup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Managing (Parsing) Cash Prices&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Display/ View a queue of “cash prices” of commodities in a standardized format&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Project Milestone 2 (More Features):&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Milestone 2 Due on (March 6)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Add state to the items and maintain state using a database&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;A Quick lookup (if un implemented in Milestone 1)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Display Error Messages For Data that couldn’t be parsed&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Being able to view and edit all parsed message&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Manage decision messages from users (View/Delete/Comment)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Display All Decision Messages from Users&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Total time required to Implement Milestone 2 features (2-4weeks)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Project Milestone 3 (Documentation and Final Release)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Due on April 1&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Continuing to develop if features are not completed&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Documentation on how to build and run the server&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Final version of the working software&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Presentation of Software to the committee&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;End Of Term&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Infrastructure and facilities and expert personnel required:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to my supervisor I may need to  collaborate  an  industrial  partner that is FarmLink. I would arrange for collaboration if they are not in lab of Department of Computer Science by contacting Mr. Mike Reimer from FarmLink, I have his cell phone number as well as his email address and since he is the project lead, he will be available to assist me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Outcomes and Deliverables:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the completion of this project I am expected to deliver:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FarmLink: The code and documentation, a presentation of the software&lt;/li&gt;
+  &lt;li&gt;Robert Guderian: Basically, the same as farmlink.&lt;/li&gt;
+  &lt;li&gt;Tulsi: Proposal document which will outline requirements you have discovered from FarmLink, bi-weekly check-ins, Final paper discussing what was accomplished for the industrial project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are no references used&lt;/p&gt;</content><author><name></name></author><summary type="html">Project Title:   Creating A Software for FarmLink to tag Cash Prices, Parse Messages and Bids Student Name:   Patel,Pratik (7837299) Supervisor:  Mr.Robert Guderian (UOFM), Mr.Micheal Reimer (FarmLink)</summary></entry><entry><title type="html">Industrial Project Proposal</title><link href="http://localhost:4000/jekyll/update/2020/01/25/Industrial-project-proposal.html" rel="alternate" type="text/html" title="Industrial Project Proposal" /><published>2020-01-25T21:27:56-06:00</published><updated>2020-01-25T21:27:56-06:00</updated><id>http://localhost:4000/jekyll/update/2020/01/25/Industrial-project-proposal</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/25/Industrial-project-proposal.html">&lt;p&gt;Project Title:   &lt;strong&gt;Creating A Software for FarmLink to tag Cash Prices, Parse Messages and Bids&lt;/strong&gt;&lt;br /&gt;
+Student Name:      &lt;strong&gt;Patel,Pratik (7837299)&lt;/strong&gt;&lt;br /&gt;
+Supervisor:      &lt;strong&gt;Mr.Robert Guderian (UOFM), Mr.Micheal Reimer (FarmLink)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Using Front End (React) Framework and Back End (Flask) server software to Create a fully functioning software for tagging information about a cash price, parsing and displays messages, bids for FarmLink.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction to the topic:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The scope of this project is  a slick interface for manually tagging the information about a cash price, displaying parsed messages and bids history by using as many clever UI elements as possible. This is to reduce and keep the amount of time/overhead manually inputting these prices into the system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Your background preparation to do this project:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have prepared to do this project by taking courses such as&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;COMP 3350 (Software Engineering 1)&lt;/li&gt;
+  &lt;li&gt;COMP 3380 (Databases: Concepts and Usage) experience with using and designing Databases&lt;/li&gt;
+  &lt;li&gt;COMP 3020 (Human Computer Interaction) experience with designing User Interfaces using usability heuristics such as Flexibility and efficiency of system use,and providing proper help and documentation, use of Model-View-Controller architecture and  Web development (HTML, CSS, JAVASCRIPT).&lt;/li&gt;
+  &lt;li&gt;I have also taken COMP 3010 (Distributed Computing) in which we covered an interesting topic Client and server-side processing, failure detection and recovery which will help me with throughout this project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Related Work:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;FarmLink will provide a “mock” database of incoming cash prices, and a schema for the cleaned/tagged cash prices to be put into. The summary of related work required for this project is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating a back-end API for pulling from the database (Flask)&lt;/li&gt;
+  &lt;li&gt;Creating a front-end website (or program, this can be flexible, given justification) for seeing the queue of cash prices that must be tagged, and seeing the history of cash prices, in case there is needs of updates. This is done in React.js, unless otherwise planned for.&lt;/li&gt;
+  &lt;li&gt;Creating a database to maintain state for the system (has this cash price been processed? By whom? When?)&lt;/li&gt;
+  &lt;li&gt;Documentation on how to build and run the server that is required&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem Statement:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Farmlink is getting information about various “cash prices” of commodities from around the province, and around Canada. These come into their system in various ways, and they would like to keep all the information in one stable place, in a well-known format&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Methodology:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task To be Completed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Time Frame Estimates&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Designing A prototype for the software with an overall theme and GUI components&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Due on Feb 7 (2 Weeks)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Project Milestone 1 Features (Initial Planning):&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Milestone 1 Due on Feb 21&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Creating a  Flask API for pulling from the database and overall project setup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Managing (Parsing) Cash Prices&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Display/ View a queue of “cash prices” of commodities in a standardized format&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Project Milestone 2 (More Features):&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Milestone 2 Due on (March 6)&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Add state to the items and maintain state using a database&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;A Quick lookup (if un implemented in Milestone 1)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Display Error Messages For Data that couldn’t be parsed&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Being able to view and edit all parsed message&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Manage decision messages from users (View/Delete/Comment)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Display All Decision Messages from Users&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Total time required to Implement Milestone 2 features (2-4weeks)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Project Milestone 3 (Documentation and Final Release)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Due on April 1&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Continuing to develop if features are not completed&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Documentation on how to build and run the server&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Final version of the working software&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Presentation of Software to the committee&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;End Of Term&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Infrastructure and facilities and expert personnel required:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to my supervisor I may need to  collaborate  an  industrial  partner that is FarmLink. I would arrange for collaboration if they are not in lab of Department of Computer Science by contacting Mr. Mike Reimer from FarmLink, I have his cell phone number as well as his email address and since he is the project lead, he will be available to assist me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Outcomes and Deliverables:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the completion of this project I am expected to deliver:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FarmLink: The code and documentation, a presentation of the software&lt;/li&gt;
+  &lt;li&gt;Robert Guderian: Basically, the same as farmlink.&lt;/li&gt;
+  &lt;li&gt;Tulsi: Proposal document which will outline requirements you have discovered from FarmLink, bi-weekly check-ins, Final paper discussing what was accomplished for the industrial project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are no references used&lt;/p&gt;</content><author><name></name></author><summary type="html">Project Title:   Creating A Software for FarmLink to tag Cash Prices, Parse Messages and Bids Student Name:   Patel,Pratik (7837299) Supervisor:  Mr.Robert Guderian (UOFM), Mr.Micheal Reimer (FarmLink)</summary></entry></feed>

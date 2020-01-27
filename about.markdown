@@ -1,0 +1,8 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+Hello!, I am Pratik Patel, my student number is: 7837299, I am currently doing a industrial project (COMP 4560) at University Of Manitoba, FarmLink is the Industry I am developing the software for in this winter 2020 term and this is a blog website created to keep track of my progress in the project.
+Please click on any of my blog posts to get additional details for my progress in the project.

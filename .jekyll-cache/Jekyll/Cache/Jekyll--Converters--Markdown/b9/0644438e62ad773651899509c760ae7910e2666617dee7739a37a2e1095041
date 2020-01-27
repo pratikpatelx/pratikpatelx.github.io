@@ -1,0 +1,137 @@
+I"�<p>Project Title:   <strong>Creating A Software for FarmLink to tag Cash Prices, Parse Messages and Bids</strong><br />
+Student Name:      <strong>Patel,Pratik (7837299)</strong><br />
+Supervisor:      <strong>Mr.Robert Guderian (UOFM), Mr.Micheal Reimer (FarmLink)</strong></p>
+
+<p><strong>Abstract:</strong></p>
+
+<p>Using Front End (React) Framework and Back End (Flask) server software to Create a fully functioning software for tagging information about a cash price, parsing and displays messages, bids for FarmLink.</p>
+
+<p><strong>Introduction to the topic:</strong></p>
+
+<p>The scope of this project is  a slick interface for manually tagging the information about a cash price, displaying parsed messages and bids history by using as many clever UI elements as possible. This is to reduce and keep the amount of time/overhead manually inputting these prices into the system.</p>
+
+<p><strong>Your background preparation to do this project:</strong></p>
+
+<p>I have prepared to do this project by taking courses such as</p>
+
+<ul>
+  <li>COMP 3350 (Software Engineering 1)</li>
+  <li>COMP 3380 (Databases: Concepts and Usage) experience with using and designing Databases</li>
+  <li>COMP 3020 (Human Computer Interaction) experience with designing User Interfaces using usability heuristics such as Flexibility and efficiency of system use,and providing proper help and documentation, use of Model-View-Controller architecture and  Web development (HTML, CSS, JAVASCRIPT).</li>
+  <li>I have also taken COMP 3010 (Distributed Computing) in which we covered an interesting topic Client and server-side processing, failure detection and recovery which will help me with throughout this project.</li>
+</ul>
+
+<p><strong>Related Work:</strong></p>
+
+<p>FarmLink will provide a “mock” database of incoming cash prices, and a schema for the cleaned/tagged cash prices to be put into. The summary of related work required for this project is:</p>
+
+<ul>
+  <li>Creating a back-end API for pulling from the database (Flask)</li>
+  <li>Creating a front-end website (or program, this can be flexible, given justification) for seeing the queue of cash prices that must be tagged, and seeing the history of cash prices, in case there is needs of updates. This is done in React.js, unless otherwise planned for.</li>
+  <li>Creating a database to maintain state for the system (has this cash price been processed? By whom? When?)</li>
+  <li>Documentation on how to build and run the server that is required</li>
+</ul>
+
+<p><strong>Problem Statement:</strong></p>
+
+<p>Farmlink is getting information about various “cash prices” of commodities from around the province, and around Canada. These come into their system in various ways, and they would like to keep all the information in one stable place, in a well-known format</p>
+
+<p><strong>Methodology:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Task To be Completed</th>
+      <th style="text-align: center">Time Frame Estimates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Designing A prototype for the software with an overall theme and GUI components</td>
+      <td style="text-align: center">Due on Feb 7 (2 Weeks)</td>
+    </tr>
+    <tr>
+      <td><strong>Project Milestone 1 Features (Initial Planning):</strong></td>
+      <td style="text-align: center"><strong>Milestone 1 Due on Feb 21</strong></td>
+    </tr>
+    <tr>
+      <td>Creating a  Flask API for pulling from the database and overall project setup</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Managing (Parsing) Cash Prices</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Display/ View a queue of “cash prices” of commodities in a standardized format</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td><strong>Project Milestone 2 (More Features):</strong></td>
+      <td style="text-align: center"><strong>Milestone 2 Due on (March 6)</strong></td>
+    </tr>
+    <tr>
+      <td>Add state to the items and maintain state using a database</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>A Quick lookup (if un implemented in Milestone 1)</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Display Error Messages For Data that couldn’t be parsed</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Being able to view and edit all parsed message</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Manage decision messages from users (View/Delete/Comment)</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Display All Decision Messages from Users</td>
+      <td style="text-align: center">Total time required to Implement Milestone 2 features (2-4weeks)</td>
+    </tr>
+    <tr>
+      <td><strong>Project Milestone 3 (Documentation and Final Release)</strong></td>
+      <td style="text-align: center"><strong>Due on April 1</strong></td>
+    </tr>
+    <tr>
+      <td>Continuing to develop if features are not completed</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Documentation on how to build and run the server</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>Final version of the working software</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td><strong>Presentation of Software to the committee</strong></td>
+      <td style="text-align: center"><strong>End Of Term</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Infrastructure and facilities and expert personnel required:</strong></p>
+
+<p>In addition to my supervisor I may need to  collaborate  an  industrial  partner that is FarmLink. I would arrange for collaboration if they are not in lab of Department of Computer Science by contacting Mr. Mike Reimer from FarmLink, I have his cell phone number as well as his email address and since he is the project lead, he will be available to assist me.</p>
+
+<p><strong>Outcomes and Deliverables:</strong></p>
+
+<p>At the completion of this project I am expected to deliver:</p>
+
+<ul>
+  <li>FarmLink: The code and documentation, a presentation of the software</li>
+  <li>Robert Guderian: Basically, the same as farmlink.</li>
+  <li>Tulsi: Proposal document which will outline requirements you have discovered from FarmLink, bi-weekly check-ins, Final paper discussing what was accomplished for the industrial project</li>
+</ul>
+
+<p><strong>References:</strong></p>
+
+<p>There are no references used</p>
+:ET
