@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Industrial Project Update - Project Wireframe Prototype 1"
-date:   2020-02-7 21:27:56 -0600
+date:   2020-02-7
 categories: jekyll update
 ---
 
