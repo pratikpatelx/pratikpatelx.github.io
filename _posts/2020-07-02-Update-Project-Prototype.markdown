@@ -7,4 +7,4 @@ categories: jekyll update
 
 # The Wireframe 
 
-![Image of Wireframe](assets/images/pratik.png)
+![Image of Wireframe]({{site.url}}/assets/images/pratik.png)
