@@ -7,4 +7,4 @@ categories: jekyll update
 
 # The Wireframe 
 
-![Image of Wireframe]({{site.url}}/assets/images/pratik.png)
+![Image of Wireframe](https://github.com/pratikpatelx/pratikpatelx.github.io/assets/images/pratik.png)
