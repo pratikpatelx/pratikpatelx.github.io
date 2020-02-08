@@ -8,7 +8,10 @@ categories: jekyll update
 # The Wireframe 
 This is the starting wireframe for the web app, but there might be changes in the design, therefore this design is the starting point, we might decide to keep this design or re-design it after I recieve feedback from FarmLink.
 
-![Image of Wireframe](/assets/images/pratik.png)
+![Image of Wireframe](/assets/images/prototype.png)
 
 
-You can view the image [here](/assets/images/pratik.png).
+You can view the image [here](/assets/images/brainstorm.png).
+
+# Brainstormed idea for UI in team meeting
+Please Click [here](/assets/images/prototype.png)
