@@ -9,4 +9,4 @@ categories: jekyll update
 This is the starting wireframe for the web app, but there might be changes in the design, therefore this design is the starting point, we might decide to keep this design or re-design it after I recieve feedback from FarmLink.
 
 ![Image of Wireframe]({{ site.url }}/assets/pratik.png)
-You can view the image [here]({{ site.url }}/assets/pratik.png).
+You can view the image [here](/assets/images/pratik.png).
