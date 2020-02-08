@@ -12,4 +12,5 @@ This is the starting wireframe for the web app, but there might be changes in th
 
 # Brainstormed idea for UI in team meeting
 ![Image of Brainstrom UI](/assets/images/brainstorm.png)
+
 Please Click [here](/assets/images/brainstorm.png)
