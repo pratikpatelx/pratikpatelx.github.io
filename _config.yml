@@ -23,7 +23,7 @@ email: patelpk3@myumanitoba.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to My Industrial Project Blog 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http//cs.umanitoba.ca" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pratikpatelx.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pratikP123
 github_username:  pratikpatelx
 
